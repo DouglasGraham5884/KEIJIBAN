@@ -1,0 +1,78 @@
+:root {
+    /* --main-color1: rgb(111, 255, 71); */
+    /* --main-color2: rgba(111, 255, 71, .3); */
+    /* --main-color3: rgba(111, 255, 71, .1); */
+    --main-color1: rgb(255, 225, 225);
+    --main-color2: rgba(255, 225, 225, .3);
+    --main-color3: rgba(255, 225, 225, .1);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    color: var(--main-color1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.submit-container {
+    min-height: 100px;
+    padding: 10px;
+    border: 2px solid var(--main-color2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.submit-name {
+    color: var(--main-color1);
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.submit-message {
+    color: var(--main-color1);
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-top: 1px solid var(--main-color2);
+}
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    /* color: #333; */
+    color: var(--main-color1);
+    /* background: rgba(0, 0, 0, 0); */
+    background: var(--main-color3);
+    border: 2px solid var(--main-color2);
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.message-container {
+    margin: 20px;
+}
+
+.message-container + .message-container {
+    border-top: 1px solid var(--main-color2);
+}
+
+.message-header {
+    opacity: .5;
+}
