@@ -22,6 +22,7 @@ body {
 .submit-container {
     min-height: 100px;
     padding: 10px;
+    margin: 10px;
     border: 2px solid var(--main-color2);
     border-radius: 10px;
     text-align: center;
@@ -30,8 +31,9 @@ body {
 .submit-name {
     color: var(--main-color1);
     display: block;
-    width: 100%;
+    width: calc(100% - 10px);
     margin: 0 auto;
+    padding: 5px;
     background: rgba(0, 0, 0, 0);
     border: none;
 }
@@ -39,13 +41,14 @@ body {
 .submit-message {
     color: var(--main-color1);
     display: block;
-    width: 100%;
+    width: calc(100% - 10px);
     min-height: 100px;
     margin: 0 auto;
-    padding-top: 5px;
+    padding: 5px;
     background: rgba(0, 0, 0, 0);
     border: none;
     border-top: 1px solid var(--main-color2);
+    border-radius: 0;
 }
 
 .submit-button {
@@ -75,4 +78,9 @@ body {
 
 .message-header {
     opacity: .5;
+}
+
+.message {
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
 }
