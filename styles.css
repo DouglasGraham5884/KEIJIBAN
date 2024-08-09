@@ -2,9 +2,9 @@
     /* --main-color1: rgb(111, 255, 71); */
     /* --main-color2: rgba(111, 255, 71, .3); */
     /* --main-color3: rgba(111, 255, 71, .1); */
-    --main-color1: rgb(255, 225, 225);
-    --main-color2: rgba(255, 225, 225, .3);
-    --main-color3: rgba(255, 225, 225, .1);
+    --main-color1: rgb(255, 255, 255);
+    --main-color2: rgba(255, 255, 255, .3);
+    --main-color3: rgba(255, 255, 255, .1);
 }
 
 p {
