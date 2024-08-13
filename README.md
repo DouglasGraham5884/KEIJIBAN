@@ -12,3 +12,4 @@ define("DB_NAME", "keijiban");  // データベース名
 define("DB_USER", "");          // ユーザー名
 define("DB_PASS", "");          // パスワード
 ```
+他、軽微な修正をしました。
