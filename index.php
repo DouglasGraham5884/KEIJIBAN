@@ -4,7 +4,7 @@ session_start();
 require_once dirname(__FILE__) . "/functions.php";
 
 $pdo = connect();
-if(isset($_POST)) {
+if(!empty($_POST)) {
 
     $trimedString = str_replace("\r\n", "", str_replace("\r", "", str_replace("\n", "", str_replace("\t", "", str_replace("　", "", str_replace(" ", "", $_POST["message"]))))));
     if((validateToken($_POST["token"]) && ($trimedString !== ""))) {
